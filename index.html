@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="style.scss">
+  <script src="main.js" defer></script>
+
+  <!-- Font Family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <div class="header_container">
+      <div class="container">
+        <nav>
+          <div>
+            <a href="index.html"><img src="images/logo.svg" alt="snap Logo"></a>
+          </div>
+        
+          <ul class="primary_nav">
+
+            <div class="flex_wrap">
+              <li>
+                <button aria-expanded="false" class="features_btn">Features <span><img src="images/icon-arrow-down.svg" alt="" aria-hidden="true"></span></button>
+                <div class="features_nav" aria-hidden="true">
+                  <div class="boxy">
+                    <a href="#"><span><img src="images/icon-todo.svg" alt="" aria-hidden="true"></span> Todo List</a>
+                    <a href="#"><span><img src="images/icon-calendar.svg" alt="" aria-hidden="true"></span> Calendar</a>
+                    <a href="#"><span><img src="images/icon-reminders.svg" alt="" aria-hidden="true"></span> Reminders</a>
+                    <a href="#"><span><img src="images/icon-planning.svg" alt="" aria-hidden="true"></span> Planning</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <button aria-expanded="true" class="company_btn">Company <span><img src="images/icon-arrow-down.svg" alt="" aria-hidden="true"></span></button>
+                <div class="company_nav" aria-hidden="true">
+                  <a href="#">History</a>
+                  <a href="#">Our Team</a>
+                  <a href="#">Blog</a>
+                </div>
+              </li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">About</a></li>
+            </div>
+
+            <div class="flex_wrap1">
+              <button>Login</button>
+              <a href="#">Register</a>
+            </div>
+          </ul>
+
+          <div class="button_nav">
+            <button class="menu_button" aria-label="Menu"></button>
+            <div class="hamburger"></div>
+          </div>
+          <button class="menu_close2" aria-label="Close Menu"></button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="grid_wrap">
+          <div class="text_area">
+            <h1>Make 
+              remote work</h1>
+            <p>
+              Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.
+            </p>
+            <a href="#">Learn more</a>
+            <div class="flex_wrap">
+              <div>
+                <img src="images/client-databiz.svg" alt="Databiz Logo">
+              </div>
+              <div>
+                <img src="images/client-audiophile.svg" alt="Audiophile Logo">
+              </div>
+              <div>
+                <img src="images/client-meet.svg" alt="Meet Logo">
+              </div>
+              <div>
+                <img src="images/client-maker.svg" alt="Maker Logo">
+              </div>
+            </div>
+          </div>
+          <div class="img_area">
+            <picture>
+              <source srcset="images/image-hero-mobile.png" media="(max-width: 800px)">
+              <img src="images/image-hero-desktop.png" alt="Man holding a laptop">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer style="text-align: center; padding-block-start: 3em;">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/johnmaizo" target="_blank">John Robert Maizo</a>.
+    </div>
+  </footer>
+</body>
+</html>
