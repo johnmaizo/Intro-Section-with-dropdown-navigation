@@ -25,7 +25,7 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 
 <h2 align="center">Links</h2>
 
-- Solution URL: [Intro section with dropdown navigation using HTML and CSS | Frontend Mentor](https://www.frontendmentor.io/solutions/blogr-landing-page-using-html-and-css-8uRrMskjDf)
+- Solution URL: [Intro section with dropdown navigation using HTML and CSS | Frontend Mentor](https://www.frontendmentor.io/solutions/intro-section-using-html-and-scss-f6Nsf7UZUt)
 - Live Site URL: [https://intro-section-johnmaizo.netlify.app/](https://intro-section-johnmaizo.netlify.app/)
 
 <br>
